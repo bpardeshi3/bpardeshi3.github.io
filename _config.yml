@@ -1,2 +1,5 @@
 title: "Bhaskar Pardeshi's Personal Page"
 theme: minima
+nav:
+  - title: "Home"
+    url: /
