@@ -65,3 +65,8 @@ Bhaskar is a second-year Ph.D. student in Computer Science at the Georgia Instit
 - **VMware, Inc.**<br>
   <span style="color: gray;">*Jan 2021 - Jul 2023*</span><br>
   Worked at core ESX networking datapath team.
+
+# Teaching Experience
+- Graduate Teaching Assistant (GTA), **CS 3251 - Computer Networking I**<br>
+  <span style="color: gray;">*Aug 2023 - Dec 2023*</span><br>
+  Georgia Institute of Technology
