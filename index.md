@@ -3,9 +3,6 @@ layout: default
 title: Home
 ---
 
-<!-- Browser tab icon section -->
-<link rel="icon" href="{{ '/assets/gt_logo.png' | relative_url }}" type="image/png">
-
 <!-- Custom header section -->
 <div style="display: flex; align-items: center; gap: 20px; margin-top: 20px;">
 
