@@ -47,12 +47,12 @@ Bhaskar is a second-year Ph.D. student in Computer Science at the Georgia Instit
 
 # Research Interests
 <p style="text-align: justify;">
-**Datacenter Networks and Systems** - network congestion control, end-host network stacks, compute overload control, CPU scheduling (core-allocation and load-balancing).
+<strong>Datacenter Networks and Systems</strong> - network congestion control, end-host network stacks, compute overload control, CPU scheduling (core-allocation and load-balancing).
 </p>
 
 # Publications
 - **CoreSync: A Protocol for Joint Core Scheduling and Overload Control of μs-Scale Tasks**<br>
-  Bhaskar Pardeshi, Eric Stuhr, Ahmed Saeed<br>
+  <span style="color: darkred;">Bhaskar Pardeshi</span>, Eric Stuhr, Ahmed Saeed<br>
   [IEEE ICNP 2025](https://ieeeicnp2025.pages.dev/) \[[Paper](assets/coresync-icnp25.pdf)\] \[[Code](https://github.com/GT-ANSR-Lab/CoreSync)\]<br>
 
 # Industry Experience
