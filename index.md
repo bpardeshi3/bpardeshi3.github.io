@@ -42,7 +42,7 @@ title: Home
 
 # Bio
 <p style="text-align: justify;">
-Bhaskar is a second-year Ph.D. student in Computer Science at the Georgia Institute of Technology, advised by [Prof. Ahmed Saeed](https://saeed.github.io/). Before beginning the Ph.D. program, he worked for two years with VMware’s Datapath Networking team. He completed his undergraduate studies in Computer Engineering from the College of Engineering, Pune, in 2021.
+Bhaskar is a second-year Ph.D. student in Computer Science at the Georgia Institute of Technology, advised by <a href="https://saeed.github.io/">Prof. Ahmed Saeed</a>. Before beginning the Ph.D. program, he worked for two years with VMware’s Datapath Networking team. He completed his undergraduate studies in Computer Engineering from the College of Engineering, Pune, in 2021.
 </p>
 
 # Research Interests
