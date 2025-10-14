@@ -49,7 +49,7 @@ title: Home
 Bhaskar is a second-year Ph.D. student in Computer Science at the Georgia Institute of Technology, advised by [Prof. Ahmed Saeed](https://saeed.github.io/). Before beginning the Ph.D. program, he worked for two years with VMware’s Datapath Networking team. He completed his undergraduate studies in Computer Engineering from the College of Engineering, Pune, in 2021.
 
 # Research Interests
-Datacenter network congestion control, compute overload control, CPU scheduling (core-allocation and load-balancing).
+Datacenter Networks and Systems - network congestion control, compute overload control, CPU scheduling (core-allocation and load-balancing).
 
 # Publications
 - **CoreSync: A Protocol for Joint Core Scheduling and Overload Control of μs-Scale Tasks**<br>
