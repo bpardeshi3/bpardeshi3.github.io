@@ -47,7 +47,7 @@ Bhaskar is a second-year Ph.D. student in Computer Science at the Georgia Instit
 
 # Research Interests
 <p style="text-align: justify;">
-Datacenter Networks and Systems - network congestion control, compute overload control, CPU scheduling (core-allocation and load-balancing).
+**Datacenter Networks and Systems** - network congestion control, end-host network stacks, compute overload control, CPU scheduling (core-allocation and load-balancing).
 </p>
 
 # Publications
