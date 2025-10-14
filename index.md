@@ -39,20 +39,23 @@ title: Home
 </div>
 
 <br>
-<br>
 
 # Bio
+---
 Bhaskar is a second-year Ph.D. student in Computer Science at the Georgia Institute of Technology, advised by [Prof. Ahmed Saeed](https://saeed.github.io/). Before beginning the Ph.D. program, he worked for two years with VMware’s Datapath Networking team. He completed his undergraduate studies in Computer Engineering from the College of Engineering, Pune, in 2021.
 
 # Research Interests
+---
 Datacenter Networks and Systems - network congestion control, compute overload control, CPU scheduling (core-allocation and load-balancing).
 
 # Publications
+---
 - **CoreSync: A Protocol for Joint Core Scheduling and Overload Control of μs-Scale Tasks**<br>
   Bhaskar Pardeshi, Eric Stuhr, Ahmed Saeed<br>
   [IEEE ICNP 2025](https://ieeeicnp2025.pages.dev/) \[[Paper](assets/coresync-icnp25.pdf)\] \[[Code](https://github.com/GT-ANSR-Lab/CoreSync)\]<br>
 
 # Industry Experience
+---
 - **Nutanix, Inc.**<br>
   <span style="color: gray;">*May 2025 - Aug 2025*</span><br>
   Interned with the metadata storage team.
