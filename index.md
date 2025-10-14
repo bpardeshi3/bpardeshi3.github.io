@@ -6,13 +6,12 @@ title: Bhaskar Pardeshi - Homepage
 <!-- Custom header section -->
 <div style="display: flex; align-items: center; gap: 20px; margin-top: 20px;">
 
-  <!-- Profile Photo -->
   <img src="assets/headshot.jpg" alt="Profile photo"
-       style="width:140px; height:140px; border-radius:50%; object-fit:cover;">
+       style="width:140px; height:140px; object-fit:cover; border-radius:8px;">
 
   <!-- Name and Links -->
   <div>
-    <h1 style="margin: 0;">Your Name</h1>
+    <h1 style="margin: 0;">Bhaskar Pardeshi</h1>
     <p style="font-size: 1.1em; color: #555; margin-top: 4px;">
       Ph.D. Student, Computer Science, Georgia Institute of Technology
     </p>
@@ -44,6 +43,6 @@ Bhaskar is a second-year Ph.D. student in Computer Science at the Georgia Instit
 Datacenter network congestion control, compute overload control, CPU scheduling (core-allocation and load-balancing).
 
 # Publications
-- *CoreSync: A Protocol for Joint Core Scheduling and Overload Control of μs-Scale Tasks*
-  Bhaskar Pardeshi, Eric Stuhr, Ahmed Saeed
-  [IEEE ICNP 2025](https://ieeeicnp2025.pages.dev/) \[[Paper](assets/coresync-icnp25.pdf)\] \[[Code](https://github.com/GT-ANSR-Lab/CoreSync)\]
+- **CoreSync: A Protocol for Joint Core Scheduling and Overload Control of μs-Scale Tasks**<br>
+  Bhaskar Pardeshi, Eric Stuhr, Ahmed Saeed<br>
+  [IEEE ICNP 2025](https://ieeeicnp2025.pages.dev/) \[[Paper](assets/coresync-icnp25.pdf)\] \[[Code](https://github.com/GT-ANSR-Lab/CoreSync)\]<br>
