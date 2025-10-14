@@ -17,13 +17,6 @@ title: Home
       Georgia Institute of Technology
       bpardeshi3 [@] gatech [.] edu
     </p>
-    <p style="font-size: 1.1em; color: #555; margin-top: 4px;">
-      Ph.D. Student, Computer Science
-      Georgia Institute of Technology
-    </p>
-    <p style="font-size: 1.1em; color: #555; margin-top: 4px;">
-
-    </p>
 
     <!-- Social Icons -->
     <p style="margin-top: 10px;">
