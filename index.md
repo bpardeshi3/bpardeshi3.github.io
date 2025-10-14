@@ -13,8 +13,8 @@ title: Home
   <div>
     <h1 style="margin: 0;">Bhaskar Pardeshi</h1>
     <p style="font-size: 1.1em; color: #555; margin-top: 4px;">
-      Ph.D. Student, Computer Science
-      Georgia Institute of Technology
+      Ph.D. Student, Computer Science<br>
+      Georgia Institute of Technology<br>
       bpardeshi3 [@] gatech [.] edu
     </p>
 
@@ -38,6 +38,9 @@ title: Home
   </div>
 </div>
 
+<br>
+<br>
+
 # Bio
 Bhaskar is a second-year Ph.D. student in Computer Science at the Georgia Institute of Technology, advised by [Prof. Ahmed Saeed](https://saeed.github.io/). Before beginning the Ph.D. program, he worked for two years with VMware’s Datapath Networking team. He completed his undergraduate studies in Computer Engineering from the College of Engineering, Pune, in 2021.
 
@@ -48,3 +51,14 @@ Datacenter Networks and Systems - network congestion control, compute overload c
 - **CoreSync: A Protocol for Joint Core Scheduling and Overload Control of μs-Scale Tasks**<br>
   Bhaskar Pardeshi, Eric Stuhr, Ahmed Saeed<br>
   [IEEE ICNP 2025](https://ieeeicnp2025.pages.dev/) \[[Paper](assets/coresync-icnp25.pdf)\] \[[Code](https://github.com/GT-ANSR-Lab/CoreSync)\]<br>
+
+# Industry Experience
+- **Nutanix, Inc.**<br>
+  <span style="color: gray;">*May 2025 - Aug 2025*</span><br>
+  Interned with the metadata storage team.
+- **Nvidia**<br>
+  <span style="color: gray;">*May 2024 - Aug 2024*</span><br>
+  Interned with the notebook GPU's user-space power controller team.
+- **VMware, Inc.**<br>
+  <span style="color: gray;">*Jan 2021 - Jul 2023*</span><br>
+  Worked at core networking datapath team.
