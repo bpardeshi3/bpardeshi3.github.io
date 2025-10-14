@@ -7,20 +7,22 @@ title: Home
 <div style="display: flex; align-items: center; gap: 20px; margin-top: 20px;">
 
   <img src="assets/headshot.jpg" alt="Profile photo"
-       style="width:140px; height:160px; object-fit:cover; border-radius:8px;">
+       style="width:140px; height:180px; object-fit:cover; border-radius:8px;">
 
   <!-- Name and Links -->
   <div>
     <h1 style="margin: 0;">Bhaskar Pardeshi</h1>
     <p style="font-size: 1.1em; color: #555; margin-top: 4px;">
       Ph.D. Student, Computer Science
+      Georgia Institute of Technology
+      bpardeshi3 [@] gatech [.] edu
     </p>
     <p style="font-size: 1.1em; color: #555; margin-top: 4px;">
       Ph.D. Student, Computer Science
       Georgia Institute of Technology
     </p>
     <p style="font-size: 1.1em; color: #555; margin-top: 4px;">
-      bpardeshi3 \[@\] gatech \[.\] edu
+
     </p>
 
     <!-- Social Icons -->
