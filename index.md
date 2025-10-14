@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Bhaskar Pardeshi - Homepage
+title: Home
 ---
 
 <!-- Custom header section -->
