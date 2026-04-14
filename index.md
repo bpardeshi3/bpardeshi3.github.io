@@ -54,26 +54,36 @@ Bhaskar is a second-year Ph.D. student in Computer Science at the Georgia Instit
 
 - **Svalinn: Overload Control in Large-Scale Servers with Multiple Resource Bottlenecks**<br>
   <span style="color: darkred;">Bhaskar Pardeshi</span>, Peidi Song, Ahmed Saeed<br>
-  [USENIX OSDI 2026](https://www.usenix.org/conference/osdi26) \[[Abstract](#abstract-svalinn)\] \[[Paper]()\] \[[Code]()\]
+  [USENIX OSDI 2026](https://www.usenix.org/conference/osdi26)
+  \[[<a href="javascript:void(0);" onclick="toggleAbstract('abstract-svalinn')">Abstract</a>]\]
+  \[[Paper]()\]
+  \[[Code]()\]
 
-  <details id="abstract-svalinn" style="margin-top: 8px; margin-bottom: 10px;">
-    <summary style="cursor: pointer; color: #0366d6;">Abstract</summary>
-    <div style="margin-top: 8px; text-align: justify;">
-    Modern overload controllers treat application binaries as monoliths and react to aggregate performance, a misconception we call the single-queue fallacy. Real applications have diverse, data-dependent execution paths that stress different resources. Reacting to overall performance forces the controller to focus on the most bottlenecked resource while leaving others underutilized.
-
-    We present Svalinn, a modular overload controller designed to maximize utilization across multiple potential bottlenecks such as CPU, memory bandwidth, and contended locks. Svalinn separates throughput control and latency control. A credit-based admission controller regulates offered load to maximize a user-defined utility function. Per-bottleneck controllers then enforce latency targets using AQM-style mechanisms. For resources with explicit software queues this is straightforward, but managing memory bandwidth–intensive operations is more challenging because there is no explicit queue. To handle this case, we introduce "m_semaphore", which adaptively limits the number of concurrent memory bandwidth–intensive requests to achieve high memory-bandwidth utilization using the minimum necessary CPU cores. We integrate Svalinn into four applications and two runtimes and show that it improves throughput by up to 6.1x without compromising latency.    </div>
-  </details>
+  <div id="abstract-svalinn" style="display: none; margin-top: 8px; text-align: justify;">
+    Modern overload controllers treat application binaries as monoliths and react to aggregate performance, a misconception we call the single-queue fallacy. Real applications have diverse, data-dependent execution paths that stress different resources. Reacting to overall performance forces the controller to focus on the most bottlenecked resource while leaving others underutilized. We present Svalinn, a modular overload controller designed to maximize utilization across multiple potential bottlenecks such as CPU, memory bandwidth, and contended locks. Svalinn separates throughput control and latency control. A credit-based admission controller regulates offered load to maximize a user-defined utility function. Per-bottleneck controllers then enforce latency targets using AQM-style mechanisms. For resources with explicit software queues this is straightforward, but managing memory bandwidth–intensive operations is more challenging because there is no explicit queue. To handle this case, we introduce "m_semaphore", which adaptively limits the number of concurrent memory bandwidth–intensive requests to achieve high memory-bandwidth utilization using the minimum necessary CPU cores. We integrate Svalinn into four applications and two runtimes and show that it improves throughput by up to 6.1x without compromising latency.
+  </div>
 
 - **CoreSync: A Protocol for Joint Core Scheduling and Overload Control of μs-Scale Tasks**<br>
   <span style="color: darkred;">Bhaskar Pardeshi</span>, Eric Stuhr, Ahmed Saeed<br>
-  [IEEE ICNP 2025](https://ieeeicnp2025.pages.dev/) \[[Abstract](#abstract-coresync)\] \[[Paper](assets/coresync-icnp25.pdf)\] \[[Code](https://github.com/GT-ANSR-Lab/CoreSync)\]
+  [IEEE ICNP 2025](https://ieeeicnp2025.pages.dev/)
+  \[[<a href="javascript:void(0);" onclick="toggleAbstract('abstract-coresync')">Abstract</a>]\]
+  \[[Paper](assets/coresync-icnp25.pdf)\]
+  \[[Code](https://github.com/GT-ANSR-Lab/CoreSync)\]
 
-  <details id="abstract-coresync" style="margin-top: 8px; margin-bottom: 10px;">
-    <summary style="cursor: pointer; color: #0366d6;">Abstract</summary>
-    <div style="margin-top: 8px; text-align: justify;">
-      Modern datacenter operators require high resource utilization and low application latency, multiplexing the resources of individual servers between multiple applications, while minimizing latency faced by their requests, even at high loads. To meet these objectives, servers employ multiple resource management algorithms, including fast core schedulers and overload controllers. Individual algorithms and their amalgamation are required to meet these tight performance requirements. In this paper, we demonstrate that state-of-the-art core schedulers and overload controllers produce poor performance when deployed simultaneously. Fundamentally, the design assumptions of each controller are violated by the other controller. An overload controller assumes that all resources are dedicated to an application, while a core scheduler assumes that all incoming load will be admitted. To overcome this fundamental limitation, we present CoreSync, a server-driven credit-based protocol for joint core scheduling and overload control. CoreSync relies on the basic idea that the admitted load should be proportional to the allocated resources. However, strict proportionality can lead to low utilization when admitted load does not materialize at the server (e.g., when demand drops). Thus, CoreSync uses partial proportionality to balance latency, throughput, and utilization. Our evaluation across synthetic and real-world workloads shows that CoreSync outperforms state-of-the-art schedulers and overload controllers. In particular, in overload scenarios, CoreSync improves throughput by up to 6%. At low loads, CoreSync reduces the 99th percentile latency by up to 1.7x and improves CPU utilization by up to 1.4x.
-    </div>
-  </details>
+  <div id="abstract-coresync" style="display: none; margin-top: 8px; text-align: justify;">
+    Modern datacenter operators require high resource utilization and low application latency, multiplexing the resources of individual servers between multiple applications, while minimizing latency faced by their requests, even at high loads. To meet these objectives, servers employ multiple resource management algorithms, including fast core schedulers and overload controllers. Individual algorithms and their amalgamation are required to meet these tight performance requirements. In this paper, we demonstrate that state-of-the-art core schedulers and overload controllers produce poor performance when deployed simultaneously. Fundamentally, the design assumptions of each controller are violated by the other controller. An overload controller assumes that all resources are dedicated to an application, while a core scheduler assumes that all incoming load will be admitted. To overcome this fundamental limitation, we present CoreSync, a server-driven credit-based protocol for joint core scheduling and overload control. CoreSync relies on the basic idea that the admitted load should be proportional to the allocated resources. However, strict proportionality can lead to low utilization when admitted load does not materialize at the server (e.g., when demand drops). Thus, CoreSync uses partial proportionality to balance latency, throughput, and utilization. Our evaluation across synthetic and real-world workloads shows that CoreSync outperforms state-of-the-art schedulers and overload controllers. In particular, in overload scenarios, CoreSync improves throughput by up to 6%. At low loads, CoreSync reduces the 99th percentile latency by up to 1.7x and improves CPU utilization by up to 1.4x.
+  </div>
+
+<script>
+function toggleAbstract(id) {
+  var x = document.getElementById(id);
+  if (x.style.display === "none" || x.style.display === "") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
 
 
 # Industry Experience
