@@ -55,7 +55,7 @@ Bhaskar is a second-year Ph.D. student in Computer Science at the Georgia Instit
 - **Svalinn: Overload Control in Large-Scale Servers with Multiple Resource Bottlenecks**<br>
   <span style="color: darkred;">Bhaskar Pardeshi</span>, Peidi Song, Ahmed Saeed<br>
   [USENIX OSDI 2026](https://www.usenix.org/conference/osdi26)
-  \[[<a href="javascript:void(0);" onclick="toggleAbstract('abstract-svalinn')">Abstract</a>]\]
+  \[<a href="javascript:void(0);" onclick="toggleAbstract('abstract-svalinn')">Abstract</a>\]
   \[[Paper]()\]
   \[[Code]()\]
 
@@ -66,7 +66,7 @@ Bhaskar is a second-year Ph.D. student in Computer Science at the Georgia Instit
 - **CoreSync: A Protocol for Joint Core Scheduling and Overload Control of μs-Scale Tasks**<br>
   <span style="color: darkred;">Bhaskar Pardeshi</span>, Eric Stuhr, Ahmed Saeed<br>
   [IEEE ICNP 2025](https://ieeeicnp2025.pages.dev/)
-  \[[<a href="javascript:void(0);" onclick="toggleAbstract('abstract-coresync')">Abstract</a>]\]
+  \[<a href="javascript:void(0);" onclick="toggleAbstract('abstract-coresync')">Abstract</a>\]
   \[[Paper](assets/coresync-icnp25.pdf)\]
   \[[Code](https://github.com/GT-ANSR-Lab/CoreSync)\]
 
