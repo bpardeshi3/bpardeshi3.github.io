@@ -56,11 +56,11 @@ Bhaskar is a second-year Ph.D. student in Computer Science at the Georgia Instit
   <span style="color: darkred;">Bhaskar Pardeshi</span>, Peidi Song, Ahmed Saeed<br>
   [USENIX OSDI 2026](https://www.usenix.org/conference/osdi26)
   \[<a href="javascript:void(0);" onclick="toggleAbstract('abstract-svalinn')">Abstract</a>\]
-  \[[Paper]()\]
-  \[[Code]()\]
+  \[[Paper](assets/svalinn-osdi26.pdf)\]
+  \[[Code](https://github.com/GT-ANSR-Lab/svalinn-shenango)\]
 
   <div id="abstract-svalinn" style="display: none; margin-top: 8px; text-align: justify;">
-    Modern overload controllers treat application binaries as monoliths and react to aggregate performance, a misconception we call the single-queue fallacy. Real applications have diverse, data-dependent execution paths that stress different resources. Reacting to overall performance forces the controller to focus on the most bottlenecked resource while leaving others underutilized. We present Svalinn, a modular overload controller designed to maximize utilization across multiple potential bottlenecks such as CPU, memory bandwidth, and contended locks. Svalinn separates throughput control and latency control. A credit-based admission controller regulates offered load to maximize a user-defined utility function. Per-bottleneck controllers then enforce latency targets using AQM-style mechanisms. For resources with explicit software queues this is straightforward, but managing memory bandwidth–intensive operations is more challenging because there is no explicit queue. To handle this case, we introduce "m_semaphore", which adaptively limits the number of concurrent memory bandwidth–intensive requests to achieve high memory-bandwidth utilization using the minimum necessary CPU cores. We integrate Svalinn into four applications and two runtimes and show that it improves throughput by up to 6.1x without compromising latency.
+       Modern overload controllers treat application binaries as monoliths and react to aggregate performance, a misconception we call "the single-queue fallacy". Real applications have diverse, data-dependent execution paths that stress different resources. Reacting to overall performance forces the controller to focus on the most bottlenecked resource while leaving others underutilized. We present Svalinn, a modular overload controller designed to maximize utilization across multiple potential bottlenecks such as CPU, memory bandwidth, and contended locks. Svalinn separates throughput control and latency control. A credit-based admission controller regulates offered load to maximize a user-defined utility function. Per-bottleneck controllers then enforce latency targets using Active Queue Management (AQM) policies. For resources with explicit software queues this is straightforward, but managing memory-bandwidth-intensive operations is more challenging because there is no explicit queue. To handle this case, we introduce "m_semaphore", which adaptively limits the number of concurrent memory-bandwidth-intensive requests to achieve high memory-bandwidth utilization using the minimum necessary CPU cores. We integrate Svalinn into four applications and two runtimes and show that it improves goodput by up to 6.51x without compromising latency.
   </div>
 
 - **CoreSync: A Protocol for Joint Core Scheduling and Overload Control of μs-Scale Tasks**<br>
@@ -87,6 +87,9 @@ function toggleAbstract(id) {
 
 
 # Industry Experience
+- **Microsoft**<br>
+  <span style="color: gray;">*June 2026 - Present*</span><br>
+  Interning with AI datacenter networking team.
 - **Nutanix, Inc.**<br>
   <span style="color: gray;">*May 2025 - Aug 2025*</span><br>
   Interned with the metadata storage team.
