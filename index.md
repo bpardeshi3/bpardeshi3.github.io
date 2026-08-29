@@ -95,7 +95,7 @@ function toggleAbstract(id) {
 - **Nutanix, Inc.**<br>
   <span style="color: gray;">*May 2025 - Aug 2025*</span><br>
   Interned with the metadata storage team.
-- **Nvidia**<br>
+- **NVIDIA**<br>
   <span style="color: gray;">*May 2024 - Aug 2024*</span><br>
   Interned with the notebook GPU's user-space power controller team.
 - **VMware, Inc.**<br>
