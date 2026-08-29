@@ -90,8 +90,8 @@ function toggleAbstract(id) {
 
 # Industry Experience
 - **Microsoft**<br>
-  <span style="color: gray;">*June 2026 - Present*</span><br>
-  Interning with AI datacenter networking team.
+  <span style="color: gray;">*Jun 2026 - Aug 2026*</span><br>
+  Interned with AI datacenter networking team.
 - **Nutanix, Inc.**<br>
   <span style="color: gray;">*May 2025 - Aug 2025*</span><br>
   Interned with the metadata storage team.
