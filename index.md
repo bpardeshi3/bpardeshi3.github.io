@@ -57,6 +57,7 @@ Bhaskar is a second-year Ph.D. student in Computer Science at the Georgia Instit
   [USENIX OSDI 2026](https://www.usenix.org/conference/osdi26)
   \[<a href="javascript:void(0);" onclick="toggleAbstract('abstract-svalinn')">Abstract</a>\]
   \[[Paper](assets/svalinn-osdi26.pdf)\]
+  \[[Presentation Video](https://www.youtube.com/watch?v=iSihXPmrOlk)\]
   \[[Code](https://github.com/GT-ANSR-Lab/svalinn-shenango)\]
 
   <div id="abstract-svalinn" style="display: none; margin-top: 8px; text-align: justify;">
@@ -68,6 +69,7 @@ Bhaskar is a second-year Ph.D. student in Computer Science at the Georgia Instit
   [IEEE ICNP 2025](https://ieeeicnp2025.pages.dev/)
   \[<a href="javascript:void(0);" onclick="toggleAbstract('abstract-coresync')">Abstract</a>\]
   \[[Paper](assets/coresync-icnp25.pdf)\]
+  \[[Presentation Video]()\]
   \[[Code](https://github.com/GT-ANSR-Lab/CoreSync)\]
 
   <div id="abstract-coresync" style="display: none; margin-top: 8px; text-align: justify;">
