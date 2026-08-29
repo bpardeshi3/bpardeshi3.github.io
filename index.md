@@ -103,6 +103,9 @@ function toggleAbstract(id) {
   Worked at core ESX networking datapath team.
 
 # Teaching Experience
+- **Graduate Teaching Assistant (GTA), CS 6250 - Computer Networking II**<br>
+  <span style="color: gray;">*Aug 2026 - Dec 2026*</span><br>
+  Georgia Institute of Technology
 - **Graduate Teaching Assistant (GTA), CS 8803 - Datacenter Networks & Systems**<br>
   <span style="color: gray;">*Jan 2026 - May 2026*</span><br>
   Georgia Institute of Technology
