@@ -69,7 +69,7 @@ Bhaskar is a second-year Ph.D. student in Computer Science at the Georgia Instit
   [IEEE ICNP 2025](https://ieeeicnp2025.pages.dev/)
   \[<a href="javascript:void(0);" onclick="toggleAbstract('abstract-coresync')">Abstract</a>\]
   \[[Paper](assets/coresync-icnp25.pdf)\]
-  \[[Presentation Video]()\]
+  \[[Presentation Video](https://www.youtube.com/watch?v=8Fe5pgvgz7M)\]
   \[[Code](https://github.com/GT-ANSR-Lab/CoreSync)\]
 
   <div id="abstract-coresync" style="display: none; margin-top: 8px; text-align: justify;">
